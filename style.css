@@ -1,0 +1,42 @@
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:hsla(158, 100%, 23%, 1);
+  color: #333;
+  font-family: 'calibri', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: hsla(158, 100%, 74%, 0.85);
+  flex: 0 0 80%;
+}
+#flashCardBtn {
+  border: none;
+  color: #fff;
+  background: #c65b05;
+  font-size: 1.3rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+}
+#flashCardBtn:hover {
+  color: hsla(65, 100%, 74%, 0.85);
+}
+blockquote {
+  background:hsla(149, 100%, 74%, 0.85);
+  border-left: 10px solid hsla(149, 100%, 16%, 0.85);
+  margin: 1.5rem;
+  padding: 0.5rem;
+
+}
+#answer {
+  color: #ee901d;
+}
