@@ -2,32 +2,32 @@
 const questions = [
     {
         question:
-            "Life is too short and sweet to be spent by cribbing and complaining about things. Here are some random quotes about the most wonderful gift that we've got",
-        answer: ' Life'
+            'What was the CCS3 effect used to style the background on this page?',
+        answer: 'linear-gradient'
     },
     {
         question:
-            'Humor is richly rewarding to the person who employs it. It has some value in gaining and holding attention. But it has no persuasive value at all',
-        answer: 'John Kenneth Galbraith'
+            'Why would you use repeat-x or repeat-y attached to a background image?',
+        answer: 'To repeat only horizontally or vertically'
     },
     {
         question:
-            'God save me from my friends. I can protect myself from my enemies.',
-        answer: 'Claude Louis Hector de Villars '
+            'What is the CSS property that will keep a image on the same place on the page?',
+        answer: 'Fixed'
     },
     {
-        question: 'The price of anything is the amount of life you exchange for it.',
-        answer: 'David Thoreau'
-    },
-    {
-        question:
-            'Life is like a landscape. You live in the midst of it but can describe it only from the vantage point of distance. ',
-        answer: 'Charles Lindbergh'
+        question: 'By default how are images displayed on the page?',
+        answer: 'as inline elements'
     },
     {
         question:
-            'A critic is someone who never actually goes to the battle, yet who afterwards comes out shooting the wounded.',
-        answer: ' Tyne Daly'
+            'If the top left corner represent 0% 0% how would you center you center the image on the page with %? ',
+        answer: '50% 50%'
+    },
+    {
+        question:
+            'What are two reasons to include an alt text to your image in HTML?',
+        answer: 'Screen readers and having your images show in image based search results'
     }
 ];
 
